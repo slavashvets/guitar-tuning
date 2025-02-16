@@ -1,0 +1,15 @@
+[project]
+name = "guitar-tuning"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Vyacheslav Shvets", email = "v.shvets@telekom.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fluent-runtime>=0.4.0",
+    "pydantic>=2.10.6",
+    "pyyaml>=6.0.2",
+    "rich>=13.9.4",
+    "typer>=0.15.1",
+]
